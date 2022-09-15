@@ -307,16 +307,16 @@ main {
   max-height: 112px;
   overflow: hidden;
   transition: var(--transition-2);
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .sidebar.active {
   max-height: 405px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .sidebar-info {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   position: relative;
   display: flex;
   justify-content: flex-start;
@@ -327,7 +327,7 @@ main {
 .avatar-box {
   background: var(--bg-gradient-onyx);
   border-radius: 80px;
-  border: 5px solid red;
+  /* border: 5px solid red; */
   overflow: hidden;
   /* width:"400px";
     height: "600px";  */
@@ -512,6 +512,21 @@ main {
 
 .about-text p {
   margin-bottom: 15px;
+}
+.about-textnew {
+  /* color: var(--light-gray);
+  font-size: var(--fs-8);
+  font-weight: var(--fw-300); */
+  /* border: 1px solid red; */
+  font-size: 10px;
+  line-height: 1;
+  color: var(--light-gray-70);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  margin-left: 10px;
+  padding-bottom: 3px;
+  font-style: italic;
+  /* color: gray; */
 }
 /*-----------------------------------*\
   #RESUME
@@ -702,6 +717,35 @@ main {
   0% { transform: scale(0.5); }
   100% { transform: scale(1); }
 }
+.projectnew-img {
+  /* border:0px solid red;
+  width: 30px;
+  height: 30px;
+  float: right; */
+  position: absolute;
+  color:rgb(252, 250, 248);
+  top:220px;
+  left:170px;
+  font-size: 25px;
+  /* width: 30px;
+  height: 30px; */
+  /* margin-left: 10px; */
+  /* position: relative;
+  width: 100%;
+  height: 200px;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 15px;
+ content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  z-index: 1;
+  transition: var(--transition-1); */
+}
 
 .project-item > a { width: 100%; }
 
@@ -765,6 +809,7 @@ main {
 .project-category { margin-left: 10px; }
 
 .project-title {
+  position: relative;
   color: var(--white-2);
   font-size: var(--fs-5);
   font-weight: var(--fw-400);
@@ -874,14 +919,14 @@ main {
   }
 
   .avatar-box {
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     /* width: 180px;
      padding: 30px; */
     border-radius: 30px;
   }
 
   .avatar-box img {
-    border: 3px solid blueviolet;
+    /* border: 3px solid blueviolet; */
     width: 120px;
   }
 
@@ -1051,7 +1096,7 @@ main {
    */
 
   .modal-avatar-box img {
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     width: 80px;
   }
 
@@ -1280,7 +1325,7 @@ main {
   }
 
   .avatar-box img {
-    border: 3px solid rgb(152, 22, 63);
+    /* border: 3px solid rgb(152, 22, 63); */
     width: 250px;
   }
 
