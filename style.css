@@ -528,12 +528,152 @@ main {
   font-style: italic;
   /* color: gray; */
 }
+/**
+ * #clients 
+ */
+.clients { margin-bottom: 15px; }
+
+.clients-list {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0px;
+  margin: 0 -12px;
+  padding: 20px;
+  padding-bottom: 48px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: 25px;
+}
+
+.clients-item {
+  min-width: 24%;
+  scroll-snap-align: start;
+}
+
+/* .clients-item img {
+  width: 100%;
+  filter: grayscale(1);
+  transition: var(--transition-1);
+} */
+
+/* .clients-item img:hover { filter: grayscale(0); } */
+
+/* .clients-item div {
+  width: 100%;
+  filter: grayscale(1);
+  transition: var(--transition-1);
+}
+/* .clients-item div:hover { filter: grayscale(0); } */
+
+.tech{
+   margin-right: 0px;
+   padding: 0px;
+  transition: var(--transition-1);
+   /* border:2px solid red;  */
+  width:230px;
+  height: 130px;
+  color:hsla(0, 5%, 88%, 0.612);
+  /* color: rgb(60, 62, 62); */
+  /* color:hsl(46, 38%, 45%); */
+   filter: grayscale(0); 
+  
+} 
+.tech:hover {
+  filter:grayscale(0);
+  color: hsl(46, 38%, 45%);
+}
+.tech h3{
+  margin-left: 75px;
+  font-style: italic;
+  
+}
+.ntech h3{
+  color:hsla(0, 5%, 88%, 0.612);
+  margin-top: 10px;
+  margin-left: 35px;
+}
+/* .ntech:hover{
+  color:hsla(0, 5%, 88%, 0.612);
+
+} */
+.timg{
+  width:120px ;
+  margin-left: 28px;
+  height: 120px;
+  /* color: blue; */
+  /* fill: blue; */
+  filter: grayscale(.7);
+  /* filter: brightness(.5); */
+}
+.timg:hover{
+  filter:grayscale(0);
+  
+  color: hsl(46, 38%, 45%);
+}
+#c2{
+  background-color: black;
+}
+#c3{
+  filter: grayscale(.5);
+}
+#c3:hover{
+  filter:grayscale(0);
+}
+#c1{
+  filter: grayscale(1);
+  /* color:hsl(240, 2%, 24%); */
+  /* filter: grayscale(10); */
+}
+#c1:hover{
+  filter: grayscale(0);
+}
+#c4:hover{
+  color:hsl(46, 38%, 45%) ;
+  filter: grayscale(0);
+ 
+}
+#c4>h3{
+   color:hsl(46, 38%, 45%);
+   filter:grayscale()
+}
+#c4{
+  margin-right: -20px;
+  /* background-color: brown; */
+  padding-right: -40px;
+}
+
+
+/* .tech_t{
+  color:hsla(0, 5%, 88%, 0.612);
+}
+.tech_t:hover{
+  filter:grayscale(0);
+  color: hsl(46, 38%, 45%);
+} */
+
 /*-----------------------------------*\
   #RESUME
 \*-----------------------------------*/
 .article-title { margin-bottom: 30px; }
 
-
+.resumeB{
+  color:white ;
+  font-weight: var(--fw-400);
+  line-height: 1.6;
+  /* border: 2px solid red; */
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  border-radius: 9px;
+  box-shadow: 0 0 0 4px var(--vegas-gold);
+  position: absolute;
+  top:40px;
+  left:280px;
+  padding: 5px;
+}
 /**
  * education and experience 
  */
@@ -922,6 +1062,7 @@ main {
     /* border: 2px solid yellow; */
     /* width: 180px;
      padding: 30px; */
+     /* box-shadow:0px 0px 0px 1px var(--vegas-gold); */
     border-radius: 30px;
   }
 
