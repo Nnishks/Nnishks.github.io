@@ -442,7 +442,7 @@ main {
   align-items: center;
   gap: 15px;
   padding-bottom: 4px;
-  padding-left: 7px;
+  padding-left: 0px;
 }
 
 .social-item .social-link {
@@ -588,22 +588,31 @@ main {
 } */
 /* new cal */
 /*  */
+.go1,.go2{
+  font-size: 35px;
+  
+}
+
+
 @media all and (min-width: 0px) and (max-width: 1028px) {
   .js-yearly-contributions{
     display:none;
   }
- 
-  
-  /* #jugad1{
-    display: block;
-    max-width: 200px;
-    /* width: min-content; 
-  } */
-  /* .about{
-    overflow: hidden;
-  } */
-}     
 
+}     
+@media all and (min-width: 0px) and (max-width: 450px) {
+  .go1{
+    margin-top: -375px;
+    margin-left:15px;
+    font-size: 20px;
+  }
+  .go2{
+    margin-top: -375px;
+    margin-left: 3px;
+    font-size: 20px;
+  }
+
+}   
 
 
 .about-textn {
@@ -821,7 +830,6 @@ padding: 10px 30px;
 }
 /* .ntech:hover{
   color:hsla(0, 5%, 88%, 0.612);
-
 } */
 .timg{
   width:100px ;
